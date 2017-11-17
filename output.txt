@@ -1,0 +1,53 @@
+=====================================Distance: 3 / case sensitive: False======================================
+             Encrypted volume enabled              		             Encrypted volume disabled             
+              Hidden volume enabled                		               Hidden volume disabled              
+              Nitrokey disconnected                		                 Nitrokey connected                
+=====================================Distance: 2 / case sensitive: False======================================
+            OTP code length:  8 digits             		             OTP code length: 6 digits             
+       The minimum length of a password is         		        The maximum length of a password is        
+=====================================Distance: 1 / case sensitive: False======================================
+                     8 digits                      		                      6 digits                     
+             Enter Firmware Password:              		              Enter Firmware Password              
+        Enter password for hidden volume:          		          Enter password for hidden volume         
+            Generate random password               		              Generate random password             
+               Hidden volume slot 2                		                Hidden volume slot 1               
+               Hidden volume slot 3                		                Hidden volume slot 2               
+               Hidden volume slot 4                		                Hidden volume slot 3               
+             Nitrokey not connected!               		               Nitrokey not connected              
+                    Passwords                      		                     Password:                     
+                   Secret Key:                     		                     Secret key                    
+              Select slot type: TOTP               		               Select slot type: HOTP              
+                    Send HOTP2                     		                     Send HOTP1                    
+                    Slot name:                     		                     Slot name                     
+                      Slot:                        		                       Slot                        
+=====================================Distance: 0 / case sensitive: False======================================
+           Reset Nitrokey&apos;s time?             		            Reset Nitrokey&apos;s time?            
+                      Active                       		                       Active                      
+                    Admin PIN:                     		                     Admin PIN:                    
+                    Debug Log                      		                     Debug log                     
+                    Details:                       		                     Details:                      
+Device is not yet initialized. Please try again later. 		 Device is not yet initialized. Please try again later.
+               Enter card password:                		                Enter card password:               
+                  Lock Firmware                    		                   Lock firmware                   
+                  Locking device                   		                   Locking device                  
+                        OK                         		                         OK                        
+                 Password dialog                   		                  Password dialog                  
+                    Password:                      		                     Password:                     
+                  Show password                    		                   Show password                   
+                  Show password                    		                   Show password                   
+                  Show password                    		                   Show password                   
+                    TextLabel                      		                     TextLabel                     
+                    TextLabel                      		                     TextLabel                     
+The secret string you have entered is invalid. Please reenter it. 		 The secret string you have entered is invalid. Please reenter it.
+               Unlock password safe                		                Unlock password safe               
+               Unlock Password Safe                		                Unlock password safe               
+                     WARNING!                      		                      WARNING!                     
+     Warning: Encrypted volume is not secure,      		      Warning: Encrypted volume is not secure,     
+           Wrong PIN. Please try again.            		            Wrong PIN. Please try again.           
+To avoid data loss, please unmount the partitions before proceeding. 		 To avoid data loss, please unmount the partitions before proceeding.
+dict_keys([0, 1, 2, 3])
+3: 3
+2: 2
+1: 14
+0: 24
+Total: 43

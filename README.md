@@ -12,10 +12,20 @@ punctuation or numbers.
 ##### Usage
 Accepts sorted keys as input.
 
+```bash
+Usage: show_duplicated_keys.py [OPTIONS]                                         
+                                                                                 
+Options:                                                                         
+  --thresh INTEGER          Maximum Levenshtein distance                         
+  --case_sensitive BOOLEAN  Make comparision case sensitive                      
+  --help                    Show this message and exit.                          
+```
+
 Usage example with Qt translations under Ubuntu:
 ```bash
 grep source nitrokey_en.ts  | sort -b | ./show_duplicated_keys.py
 ```
+Output example: [output.txt](output.txt)
 
 ##### Installation
 Needs Python 3. Install dependencies from `requirements.txt`:
