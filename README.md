@@ -38,6 +38,10 @@ Bases on `sort` output. If similar lines have changed the first
 letter than tool will not find it. Each string have just two comparisons 
 (with previous and next). 
 
+Tool processes strings regardless of their context and location, hence some 
+of the duplicates might be perfectly fine and desired.
+
 ##### To do
-Make each vs each computation to detect strings changed at the beginning 
+- Make each vs each computation to detect strings changed at the beginning 
 (eg. in case where first few letters are different).
+- Print duplicated string location.
